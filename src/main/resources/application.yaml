@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: "postgres"
+    password: "qwerty"
+    url: "jdbc:postgresql://127.0.0.1:5432/Baza"
+    driver-class: "org.postgresql.Driver"
+  jpa:
+    show-sql: true
+    hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
